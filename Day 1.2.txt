@@ -1,0 +1,8 @@
+public static int simpleArraySum(List<Integer> ar) {
+        int i,s=0;
+        for(i=0;i<ar.size();i++)
+        {
+            s=s+ar.get(i);
+        }
+        return s;
+    }
