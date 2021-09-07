@@ -1,0 +1,9 @@
+static long aVeryBigSum(long[] ar) {
+        long s=0;
+        int i;
+        for(i=0;i<ar.length;i++)
+        {
+            s=s+ar[i];
+        }
+        return s;
+    }
