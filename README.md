@@ -5,3 +5,6 @@ Day 1 <br>
 Day 2 <br>
 2.1 - Compare the Triplets. <br>
 2.2 - A Very Big Sum. <hr>
+Day 3 <br>
+3.1 - Diagonal Difference. <br>
+3.2 - Plus Minus. <hr>
