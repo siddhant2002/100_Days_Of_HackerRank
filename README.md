@@ -8,3 +8,6 @@ Day 2 <br>
 Day 3 <br>
 3.1 - Diagonal Difference. <br>
 3.2 - Plus Minus. <hr>
+Day 4 <br>
+4.1 - Staircase. <br>
+4.2 - Mini-Max Sum. <hr>
