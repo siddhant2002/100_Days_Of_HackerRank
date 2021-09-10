@@ -1,0 +1,19 @@
+public static int birthdayCakeCandles(List<Integer> candles) {
+        int i,n=0,c=0;
+        n=candles.get(0);
+        for(i=1;i<candles.size();i++)
+        {
+            if(candles.get(i)>n)
+            {
+                n=candles.get(i);
+            }
+        }
+        for(i=0;i<candles.size();i++)
+        {
+            if(n==candles.get(i))
+            {
+                c++;
+            }
+        }
+        return c;
+    }

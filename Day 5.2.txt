@@ -1,0 +1,32 @@
+static String timeConversion(String s) {
+        if(s.substring(8).equals("PM")==true)
+        {
+            if(s.substring(0,2).equals("12")==true)
+            {
+                return s.substring(0,8);
+            }
+            else
+            {
+                int i=Integer.parseInt(s.substring(0,2));
+                i+=12;
+                String p=String.valueOf(i);
+                p=p+s.substring(2,8);
+                return p;
+            }
+        }
+        else
+        {
+            if(s.substring(0,2).equals("12")==true)
+            {
+                int i=Integer.parseInt(s.substring(0,2));
+                i-=12;
+                String p=String.valueOf(i);
+                p="0"+p+s.substring(2,8);
+                return p;
+            }
+            else
+            {
+                return s.substring(0,8);
+            }
+        }
+    }
