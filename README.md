@@ -11,3 +11,6 @@ Day 3 <br>
 Day 4 <br>
 4.1 - Staircase. <br>
 4.2 - Mini-Max Sum. <hr>
+Day 5 <br>
+5.1 - Birthday Cake Candles. <br>
+5.2 - Time Conversion. <hr>
