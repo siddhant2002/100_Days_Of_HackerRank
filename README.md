@@ -14,3 +14,6 @@ Day 4 <br>
 Day 5 <br>
 5.1 - Birthday Cake Candles. <br>
 5.2 - Time Conversion. <hr>
+Day 6 <br>
+6.1 - Grading Students. <br>
+6.2 - Apple and Orange. <hr>
