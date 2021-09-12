@@ -17,3 +17,6 @@ Day 5 <br>
 Day 6 <br>
 6.1 - Grading Students. <br>
 6.2 - Apple and Orange. <hr>
+Day 7 <br>
+7.1 - Number Line Jumps. <br>
+7.2 - Between Two Sets. <hr>
