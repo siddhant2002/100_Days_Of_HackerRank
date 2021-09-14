@@ -25,4 +25,4 @@ Day 8 <br>
 8.2 - Subarray Division. <hr>
 Day 9 <br>
 9.1 - Divisible Sum Pairs. <br>
-9.2 - Between Two Sets. <hr>
+9.2 - Migratory Birds. <hr>
