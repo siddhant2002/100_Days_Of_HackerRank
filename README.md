@@ -21,7 +21,7 @@ Day 7 <br>
 7.1 - Number Line Jumps. <br>
 7.2 - Between Two Sets. <hr>
 Day 8 <br>
-8.1 - Number Line Jumps. <br>
+8.1 - Breaking the Records. <br>
 8.2 - Between Two Sets. <hr>
 Day 9 <br>
 9.1 - Number Line Jumps. <br>
