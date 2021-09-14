@@ -1,0 +1,16 @@
+static int birthday(List<Integer> s, int d, int m) {
+        int i,s1,c,c1=0;
+        for(i=0;i<s.size()+1-m;i++)
+        {
+            s1=0;
+            for(c=i;c<m+i;c++)
+            {
+                s1=s1+s.get(c);
+            }
+            if(d==s1)
+            {
+                c1++;
+            }
+        }
+        return c1;
+    }
