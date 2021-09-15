@@ -26,3 +26,6 @@ Day 8 <br>
 Day 9 <br>
 9.1 - Divisible Sum Pairs. <br>
 9.2 - Migratory Birds. <hr>
+Day 10 <br>
+10.1 - Divisible Sum Pairs. <br>
+10.2 - Migratory Birds. <hr>
