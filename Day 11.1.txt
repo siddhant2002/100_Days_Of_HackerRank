@@ -1,0 +1,35 @@
+static int sockMerchant(int n, int[] ar) {
+        int i,n1,k,j=0,j1,c,s=0;
+        int b[]=new int[n];
+        int c1[]=new int[n];
+        for(i=0;i<n;i++)
+        {
+            n1=ar[i];
+            c=0;
+            for(k=0;k<n;k++)
+            {
+                if(n1==ar[k])
+                {
+                    c++;
+                }
+            }
+            for(j1=0;j1<j;j1++)
+            {
+                if(n1==b[j1])
+                {
+                    break;
+                }
+            }
+            if(j1==j)
+            {
+                b[j]=n1;
+                c1[j]=c;
+                j++;
+            }
+        }
+            for(i=0;i<j;i++)
+            {
+                s=s+(c1[i]/2);
+            }
+            return s;
+    }
