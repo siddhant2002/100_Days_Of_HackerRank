@@ -33,8 +33,8 @@ Day 11 <br>
 11.1 - Sales by Match. <br>
 11.2 - Drawing Book. <hr>
 Day 12 <br>
-12.1 - Sales by Match. <br>
-12.2 - Drawing Book. <hr>
+12.1 - Counting Valleys. <br>
+12.2 - Electronics Shop. <hr>
 Day 13 <br>
-13.1 - Sales by Match. <br>
-13.2 - Drawing Book. <hr>
+13.1 - Cats and a Mouse. <br>
+13.2 - Picking Numbers. <hr>
