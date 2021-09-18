@@ -32,3 +32,9 @@ Day 10 <br>
 Day 11 <br>
 11.1 - Sales by Match. <br>
 11.2 - Drawing Book. <hr>
+Day 12 <br>
+12.1 - Sales by Match. <br>
+12.2 - Drawing Book. <hr>
+Day 13 <br>
+13.1 - Sales by Match. <br>
+13.2 - Drawing Book. <hr>
