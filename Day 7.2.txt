@@ -1,0 +1,28 @@
+public static int getTotalX(List<Integer> a, List<Integer> b) {
+        int n,n1,i,m,k=0,j;
+        n=a.size();
+        n1=b.size();
+        for(i=a.get(n-1);i<=b.get(0);i++)
+        {
+            m=0;
+            for(j=0;j<n;j++)
+            {
+                if(i%a.get(j)==0)
+                {
+                    m++;
+                }
+            }
+            for(j=0;j<n1;j++)
+            {
+                if(b.get(j)%i==0)
+                {
+                    m++;
+                }
+            }
+            if(m==(n+n1))
+            {
+                k++;
+            }
+        }
+        return k;
+    }

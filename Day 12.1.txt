@@ -1,0 +1,22 @@
+public static int countingValleys(int steps, String path) {
+        int i,d=0,u=0;
+        char c=' ';
+        for(i=0;i<path.length();i++)
+        {
+            c=path.charAt(i);
+            if(c=='D')
+            {
+                u--;
+            }
+            else if(c=='U')
+            {
+                u++;
+            }
+        
+            if(u==0&&c=='U')
+            {
+                d++;
+            }
+        }
+            return d;
+    }

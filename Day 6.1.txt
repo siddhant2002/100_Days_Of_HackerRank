@@ -1,0 +1,27 @@
+public static List<Integer> gradingStudents(List<Integer> grades) {
+        int i,k=0,k1;
+        ArrayList nm=new ArrayList();
+        for(i=0;i<grades.size();i++)
+        {
+            if(grades.get(i)<38)
+            {
+                nm.add(grades.get(i));
+            }
+            else if(grades.get(i)>=38)
+            {
+                k1=grades.get(i)/5;
+                k1++;
+                k1*=5;
+                k=k1-grades.get(i);
+                if(k<3)
+                {
+                    nm.add(k1);
+                }
+                else
+                {
+                    nm.add(grades.get(i));
+                }
+            }
+        }
+        return nm;
+    }

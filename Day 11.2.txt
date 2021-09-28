@@ -1,0 +1,15 @@
+static int pageCount(int n, int p) {
+        int k,m;
+        if(p%2==1)
+            k=(p-1)/2;
+        else
+            k=(p+1)/2;
+        if(n%2==1)
+            m=(n-p)/2;
+        else
+            m=(n-(p-1))/2;
+        if(m>k)
+        return k;
+        else
+        return m;     
+   }

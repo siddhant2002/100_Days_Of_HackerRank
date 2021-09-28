@@ -1,0 +1,13 @@
+static void miniMaxSum(int[] arr) {
+        Arrays.sort(arr);
+        int i;
+        long s=0,p=0;
+        for(i=0;i<5;i++)
+        {
+            s=s+arr[i];
+            p=p+arr[i];
+        }
+        s=s-Math.abs(arr[4]);
+        p=p-Math.abs(arr[0]);
+        System.out.println(s+" "+p);
+    }

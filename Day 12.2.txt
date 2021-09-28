@@ -1,0 +1,16 @@
+static int getMoneySpent(Integer[] keyboards, int[] drives, int b) {
+        
+        Arrays.sort(keyboards, Collections.reverseOrder());
+        Arrays.sort(drives);
+        
+        int track = -1;
+        for(int i=0;i<keyboards.length;i++){
+            for(int j = 0; j< drives.length; j++){
+                if(keyboards[i] + drives[j] > b)
+                    break;
+                if(keyboards[i] + drives[j] > track)
+                    track = keyboards[i] + drives[j];
+            }
+        }
+        return track;
+    }

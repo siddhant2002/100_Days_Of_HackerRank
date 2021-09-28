@@ -1,0 +1,23 @@
+static int[] breakingRecords(int[] scores) {
+        int i,n,ls,hs,c=0,c1=0;
+        ls=scores[0];
+        hs=scores[0];
+        n=scores.length;
+        for(i=1;i<n;i++)
+        {
+            if(scores[i]>hs)
+            {
+                hs=scores[i];
+                c++;
+            }
+            else if(scores[i]<ls)
+            {
+                ls=scores[i];
+                c1++;
+            }
+        }
+        int arr[]=new int[2];
+        arr[0]=c;
+        arr[1]=c1;
+        return arr;
+    }

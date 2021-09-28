@@ -1,0 +1,10 @@
+public static int diagonalDifference(List<List<Integer>> arr) {
+        int i,c=0,c1=0;
+        for(i=0;i<arr.size();i++)
+        {
+            c=c+arr.get(i).get(i);
+            c1=c1+arr.get(i).get(arr.size()-1-i);
+        }
+        int d=Math.abs(c-c1);
+        return d;
+    }
