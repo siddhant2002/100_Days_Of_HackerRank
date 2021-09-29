@@ -1,0 +1,20 @@
+public static int pickingNumbers(List<Integer> a) {
+        Collections.sort(a);
+        int s=0;
+        int k=a.size();
+        for(int i=0;i<k-1;i++)
+        {
+            int c=1;
+            for(int j=i+1;j<k;j++)
+            {
+                if(a.get(j)-a.get(i)<=1)
+                {
+                    c++;
+                }
+                else
+                break;
+            }
+            s=Math.max(s,c);
+        }
+        return s;
+    }
