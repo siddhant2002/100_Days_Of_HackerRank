@@ -47,3 +47,6 @@ Day 15 <br>
 Day 16 <br>
 16.1 - Beautiful Days at the Movies. <br>
 16.2 - Viral Advertising. <hr>
+Day 17 <br>
+17.1 - Save the Prisoner!. <br>
+17.2 - Circular Array Rotation. <hr>
