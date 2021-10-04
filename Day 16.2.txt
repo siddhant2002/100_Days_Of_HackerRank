@@ -1,0 +1,10 @@
+static int viralAdvertising(int n) {
+        int i,c=2,s=0,k=2;
+        for(i=1;i!=n;i++)
+        {
+            s=k*3;
+            c=c+(s/2);
+            k=(s/2);
+        }
+        return c;
+    }
