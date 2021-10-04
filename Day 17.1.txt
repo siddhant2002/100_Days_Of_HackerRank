@@ -1,0 +1,17 @@
+static int saveThePrisoner(int n, int m, int s) {
+        int i,s1=0,d;
+        for(i=1;i<=n;i++)
+        {
+            if(m%n==0)
+            {
+                s1=0;
+                s1=((m+s)-2)%n+1;
+            }
+            else
+            {
+                s1=0;
+                s1=((m+s)-2)%n+1;
+            }
+        }
+        return s1;
+    }
