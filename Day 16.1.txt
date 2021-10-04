@@ -1,0 +1,20 @@
+static int beautifulDays(int i, int j, int k) {
+        int dup,d,rev,r,m=0,c=0;
+        for(r=i;r<=j;r++)
+        {
+            dup=r;
+            rev=0;
+            while(dup!=0)
+            {
+                d=dup%10;
+                rev=rev*10+d;
+                dup/=10;
+            }
+            m=Math.abs(r-rev);
+            if(m%k==0)
+            {
+                c++;
+            }
+        }
+        return c;
+    }
