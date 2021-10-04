@@ -50,3 +50,6 @@ Day 16 <br>
 Day 17 <br>
 17.1 - Save the Prisoner!. <br>
 17.2 - Circular Array Rotation. <hr>
+Day 18 <br>
+18.1 - Sequence Equation. <br>
+18.2 - Jumping on the Clouds: Revisited. <hr>
