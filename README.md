@@ -57,5 +57,5 @@ Day 19 <br>
 19.1 - Find Digits. <br>
 19.2 - Extra Long Factorials. <hr>
 Day 20 <br>
-20.1 - Sequence Equation. <br>
-20.2 - Jumping on the Clouds: Revisited. <hr>
+20.1 - Append and Delete. <br>
+20.2 - Sherlock and Squares: Revisited. <hr>
