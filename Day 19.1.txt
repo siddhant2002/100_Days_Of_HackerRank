@@ -1,0 +1,17 @@
+static int findDigits(int n) {
+        int k,dup,c=0;
+        dup=n;
+        while(dup!=0)
+        {
+            k=dup%10;
+            if(k!=0)
+            {
+                if(n%k==0)
+                {
+                    c++;
+                }
+            }
+            dup/=10;
+        }
+        return c;
+    }
