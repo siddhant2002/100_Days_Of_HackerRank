@@ -1,0 +1,28 @@
+static int squares(int a, int b) {
+        int i,j=0,c=0;
+        double d;
+        for(i=a;i<=b;)
+        {
+            if(c>=1)
+            {
+                    c++;
+                    j=(int)Math.sqrt(j);
+                    j++;
+                    j*=j;
+                    i=j;
+                    continue;
+            }
+            d=Math.ceil(Math.sqrt(i));
+            j=(int)Math.sqrt(i);
+            if(d==j)
+            {
+                c++;
+                j++;
+                j*=j;
+                i=j;
+                continue;
+            }
+            i++;
+        }
+        return c;
+    }
