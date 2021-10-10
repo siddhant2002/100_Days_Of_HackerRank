@@ -53,3 +53,9 @@ Day 17 <br>
 Day 18 <br>
 18.1 - Sequence Equation. <br>
 18.2 - Jumping on the Clouds: Revisited. <hr>
+Day 19 <br>
+19.1 - Find Digits. <br>
+19.2 - Extra Long Factorials. <hr>
+Day 20 <br>
+20.1 - Sequence Equation. <br>
+20.2 - Jumping on the Clouds: Revisited. <hr>
