@@ -59,3 +59,6 @@ Day 19 <br>
 Day 20 <br>
 20.1 - Append and Delete. <br>
 20.2 - Sherlock and Squares: Revisited. <hr>
+Day 21 <br>
+21.1 - Library Fine. <br>
+21.2 - Cut the sticks. <hr>
