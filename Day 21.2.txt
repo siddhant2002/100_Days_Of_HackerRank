@@ -1,0 +1,46 @@
+static int[] cutTheSticks(int[] arr) {
+        int a[]=new int[arr.length];
+        int i,j,c,j1,n;
+        for(i=0;i<arr.length-1;i++)
+        {
+            for(j=0;j<arr.length-i-1;j++)
+            {
+                if(arr[j]>arr[j+1])
+                {
+                    c=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=c;
+                }
+            }
+        }
+        j=0;
+        c=0;
+        i=0;
+        do
+        {
+                if(arr[i]!=0)
+                {
+                    n=arr[i];
+                    for(j1=i;j1<arr.length;j1++)
+                    {
+                        arr[j1]-=n;
+                        c++;
+                    }
+                    a[j++]=c;
+                }
+                else
+                {
+                    i++;
+                    c=0;
+                }
+        }while(i!=arr.length);
+        int b[]=new int[j];
+        for(i=0;i<j;i++)
+        {
+            if(a[i]!=0)
+            {
+                b[i]=a[i];
+            }
+        }
+        return b;
+    }
