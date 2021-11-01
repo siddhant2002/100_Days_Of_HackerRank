@@ -1,0 +1,13 @@
+static int jumpingOnClouds(int[] c) {
+        int i,n,c1=0;
+        n=c.length;
+        for(i=0;i<n;i++,c1++)
+        {
+            if(i<n-2&&c[i+2]==0)
+            {
+                i++;
+            }
+        }
+        c1--;
+        return c1;
+    }
