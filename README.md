@@ -62,3 +62,6 @@ Day 20 <br>
 Day 21 <br>
 21.1 - Library Fine. <br>
 21.2 - Cut the sticks. <hr>
+Day 22 <br>
+22.1 - Repeated String. <br>
+22.2 - Jumping on the Clouds. <hr>
