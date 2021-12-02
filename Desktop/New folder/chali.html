@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Notice</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".stu_info").mouseenter(function(){
+              $(".time").show();  
+            });
+        });
+    </script>
+</head>
+<style>
+    body{
+        font-family:'Roboto',sans-serif;
+    }
+    .container{
+        display:flex;
+        align-content:space-around;
+        padding: 35px 35px;
+    }
+    #att{
+        border: 1px solid black;
+        text-align: center;
+        padding: 18px 20px;
+    }
+    #att:hover{
+        background: #D1CECD;
+        border-color: #D1CECD;
+    }
+    h2{
+        text-align: center;
+    }
+    .c2,.c3{
+        margin-left: 30px;
+    }
+    .stu-info{
+        font-weight: bold;
+    }
+    small{
+        display: none;
+    }
+</style>
+<style>
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        min-width: 100px;
+        box-shadow: 0px 6px 12px 0px rgba(250, 250, 250, 0.2);
+        padding: 12px 16px;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="c1">
+            <h2>Student Information</h2>
+            <h3 id="att">Academic TimeTable</h3>
+            <h3 id="att">Schlorship Update</h3>
+            <h3 id="att">Student Login</h3>
+            <h3 id="att">Apply for Caution Money Refund</h3>
+        </div>
+    </div>
+    <div class="dropdown">
+        <span>Student Notice</span>
+        <hr>
+        <div class="dropdown-content">
+            <p class="stu_info">Notice for revised college Bus Timing.</p>
+            <small class="time">Nov 18, 2021</small>
+
+            <p class="stu_info">Notice regarding Physical Classes of 5th BCA and 5th MCA</p>
+            <small class="time">Nov 18, 2021</small>
+        
+            <p class="stu_info">Notice regarding Physical Classes for B.Tech 5th Semester</p>
+            <small class="time">Nov 13, 2021</small>
+
+            <p class="stu_info">Notice regarding Physical Classes for B.Tech 53rd Semester</p>
+            <small class="time">Nov 2, 2021</small>
+        </div>
+    </div>
+        <div class="dropdown">
+            <span>Exam Notice</span>
+            <hr>
+            <div class="dropdown-content">
+
+                <p class="stu_info">Notice for B.Tech 2nd Semester Examination <br>for the students
+                 who have not appeared the <br> End Semester Exam held in the month of 
+                 July/August, 2021
+                </p> 
+                <small class="time">Nov 18, 2021</small>
+                
+                <p class="stu_info">Notice and Programme for 2nd Semester M.Sc, M.Tech <br>
+                    and MCA End Semester Exam
+                </p>
+                <small class="time">Nov 18, 2021</small>
+                
+                <p class="stu_info">Notice and Programme of 4th Semester M.Sc and MCA <br>
+                   End Semester Exam
+                </p>
+                <small class="time">Nov 13, 2021</small>
+                
+                <p class="stu_info">Notice and Programme of 4th Semester B.Tech <br>
+                    and BCA End Semester Exam
+                 </p>
+                 <small class="time">Nov 2, 2021</small>
+            </div>
+        </div>
+</body>
+</html>
