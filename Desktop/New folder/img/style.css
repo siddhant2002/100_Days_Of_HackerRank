@@ -1,0 +1,41 @@
+/* body
+{
+    background-color: rgb(158, 39, 98);
+}
+#first
+{
+    background-color: aqua;
+}
+.bgblue
+{
+    background-color: blueviolet;
+    color: white;
+} */
+*{
+    /* margin: 0;
+    padding: 0; */
+    /* The margin and padding are set at 0 */
+}
+/* There are different ways to set colors
+1. rgb - It specifies color using rgb(13,314,124);
+2. hex code - It specifies color using #ff7180;
+3. HSL - It specifies color using hsl(8,70%,60%) and it stands for hue saturation lightness */
+.reddy
+{
+    background-color: orangered;
+    /* You can set the height by mentioning
+    height: 344px; */
+    color: white;
+}
+/* There are other two formats 
+1. rgba
+2. hsla
+a stands for alpha and it decides the darkness of that color 
+It can used as */
+/* rgb means % of red green and blue 
+background-color: rgba(red, green, blue, alpha);*/
+greeny
+{
+    background-color: blue;
+
+}
